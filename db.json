@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+    "id": 1,
+    "title": "33",
+    "description": "4",
+    "backgroundColor": "46",
+    "order": 1,
+    "visible": false
+    }
+  ],
+  "screenshots":[ {
+    "id": 1,
+    "projectId": 1,
+    "order": 1,
+    "name": "screenshotname",
+    "url": "http://placehold.it/64x64",
+    "visible": false
+  }],
+  "screenshotMetadata":[ {
+    "id": 1,
+    "name": "lalal",
+    "width": 300,
+    "height": 300
+  }],
+  "users": [
+    {
+      "id": 1,
+      "username": "ghgfh",
+      "password": "gfdgd",
+      "email": "fdgddf@ex.ua"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "keke",
+      "order": 1,
+      "visible": true,
+      "sectionTypeID": 1,
+      "slideID": 1,
+      "demoID": 1
+    }
+  ],
+  "sectionType": [
+    {
+      "id": 1,
+      "name": "structureSlide"
+    }
+  ], 
+  "structureSlide" :[
+    {
+      "id": 1,
+      "title": "title",
+      "url": "http://google.com",
+      "urlTitle": "URLtitle",
+      "imageUrl": "http://lorempixel.com/400/200/",
+      "order": 1,
+      "visible": true
+    } 
+  ],
+  "designSlide": [
+    {
+      "id": 1,
+      "title": "title",
+      "description": "decription!!!",
+      "screenshotsLabel": "label",
+      "visible": true
+    }
+  ],
+  "demos": [
+    {
+      "id": 1,
+      "heading": "some heading",
+      "subheading": "subheading",
+      "backgroundImageUrl": "http://lorempixel.com/400/200/",
+      "sectionID": 1
+    }
+  ] 
+}

@@ -1,21 +1,26 @@
 import React, { Component, PropTypes } from 'react';
-import { TextInput} from 'admin-on-rest/lib/mui';
+// import { TextInput} from 'admin-on-rest/lib/mui';
 
-
+import TextField from 'material-ui/TextField';
 
 
 export default class Input extends Component {
     handleChange(event) {
-        console.log(event);
-         console.log(this.props.source);
-        
         this.props.onChange(this.props.source, event.target.value);
     }
 
     render() {
-        const { source, label, record,onChange,options } = this.props;
-        console.log(this.props)
-        return (<input type={"gdfgdgdf"} onChange={this.handleChange} value={"fdsfsd"}/>);
+        const { source, label, record,options } = this.props;
+
+       console.log(this.props);
+        return (<TextField 
+            name={source}
+            floatingLabelText={label}
+            value={record[source] || ''}
+            type={"email"}
+            onChange={this.handleChange.bind(this)}
+            {...options}
+        />);
     }
 }
 
